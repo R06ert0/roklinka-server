@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
+const PORT = process.env.PORT || 4001;
 
 app.use(express.json())
 app.use(cors({}))
@@ -16,4 +17,4 @@ const occupiedRouter = require('./routes/occupied')
 
 app.use('/occupied', occupiedRouter)
 
-app.listen(4000)
+app.listen(PORT)
