@@ -23,5 +23,65 @@
     "index": 1,
     "day": 18908,
     "selectType": "occupied"
+  },
+  {
+    "index": 1,
+    "day": 18913,
+    "selectType": "occupied"
+  },
+  {
+    "index": 0,
+    "day": 18914,
+    "selectType": "occupied"
+  },
+  {
+    "index": 1,
+    "day": 18914,
+    "selectType": "occupied"
+  },
+  {
+    "index": 0,
+    "day": 18915,
+    "selectType": "occupied"
+  },
+  {
+    "index": 0,
+    "day": 18913,
+    "selectType": "occupied"
+  },
+  {
+    "index": 1,
+    "day": 18915,
+    "selectType": "occupied"
+  },
+  {
+    "index": 0,
+    "day": 18920,
+    "selectType": "occupied"
+  },
+  {
+    "index": 1,
+    "day": 18920,
+    "selectType": "occupied"
+  },
+  {
+    "index": 0,
+    "day": 18921,
+    "selectType": "occupied"
+  },
+  {
+    "index": 1,
+    "day": 18921,
+    "selectType": "occupied"
+  },
+  {
+    "index": 0,
+    "day": 18922,
+    "selectType": "occupied"
+  },
+  {
+    "index": 1,
+    "day": 18922,
+    "selectType": "occupied"
   }
 ]
