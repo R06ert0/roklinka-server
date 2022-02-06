@@ -1,34 +1,18 @@
 const express = require('express')
-const fs = require('fs')
 const atob = require('atob')
+const rangeFile = require('./occupied-ranges.json')
 const router = express.Router()
 
 router.get('/', (req, res) => {
     // Return occupied array
-    fs.readFile('./routes/occupied-ranges.json', (err, rawData) => {
-        if (err) {
-            console.log(err)
-            res.send(err)
-            return
-        }
-        const data = JSON.parse(rawData)
-        res.json(data)
-        console.log('Success!')
-    })
+    res.send('OCCUPIED ARRAY')
 })
 
 router.post('/edit', logger, (req, res) => {
     // EDIT occupied array json file
     // Some code for saving data
-    const jsonData = JSON.stringify(req.body, null, 2)
-    fs.writeFile('./routes/occupied-ranges.json', jsonData && jsonData.length > 0 ? jsonData : [], (err) => {
-        if (err) {
-            console.log(err)
-            res.send(err)
-            return
-        }
-        console.log('Success!')
-    })
+    console.log(req.body)
+    
 })
 
 function logger(req, res, next) { // occupied/edit?name=fsdffsf&password=sfddsf&loggedin=true
